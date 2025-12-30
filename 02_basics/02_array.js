@@ -17,14 +17,14 @@ const real_another_array= another_array.flat(Infinity)// flat (depth) displays a
 
 // console.log(Array.isArray("Binyaamin")); //isArray checks if there is an element named Binyaamin in Array 
 // console.log(Array.from("Binyaamin"));// from converts data into Array
-// console.log(Array.from({name:"Binyaamin"}));// interesting
+// console.log(Array.of({name:"Binyaamin"}));// interesting
 
 let score1=100
 let score2=200
 let score3=300
 
-console.log(Array.of(score1,score2,score3));
-// read Array.isArray/.of/.from
+// console.log(Array.of(score1,score2,score3));
+// read :Array.isArray/.of/.from
 
 
 
