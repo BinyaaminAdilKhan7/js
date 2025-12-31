@@ -1,7 +1,7 @@
 const marvel_heroes=["thor","ironman","Spiderman"]
 const dc_heroes = ["batman","superman","spiderman"]
 
-marvel_heroes.push(dc_heroes) //push adds the given array into another Array.
+// marvel_heroes.push(dc_heroes) //push adds the given array into another Array.
 // console.log(marvel_heroes);
 // console.log(marvel_heroes[3][1]);
 
@@ -17,7 +17,7 @@ const real_another_array= another_array.flat(Infinity)// flat (depth) displays a
 
 // console.log(Array.isArray("Binyaamin")); //isArray checks if there is an element named Binyaamin in Array 
 // console.log(Array.from("Binyaamin"));// from converts data into Array
-// console.log(Array.of({name:"Binyaamin"}));// interesting
+// console.log(Array.of({name:"Binyaamin"}));// interesting/ converts the given data into an Array
 
 let score1=100
 let score2=200
