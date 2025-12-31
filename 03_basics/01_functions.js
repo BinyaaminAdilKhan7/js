@@ -47,7 +47,7 @@ const user ={
      price:199
 }
 function handleobject(anyobject){
-//  console.log(`username is,${anyobject.username} and price is ${anyobject.price}`)
+ console.log(`username is,${anyobject.username} and price is ${anyobject.price}`)
 }
 // handleobject(user)
  handleobject({
@@ -55,7 +55,7 @@ function handleobject(anyobject){
     price: 399 
  })
 
- const myNewArray = [200,250,370,590]
+ const myNewArr = [200,250,370]
  function returnSecondValue(getArray){
     return getArray[2]
  }
