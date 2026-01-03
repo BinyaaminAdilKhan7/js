@@ -15,5 +15,5 @@ function fibbonacci(n){
         }   
         return output 
 }
-output = fibbonacci(10)
+output = fibbonacci()
 console.log(output );   
