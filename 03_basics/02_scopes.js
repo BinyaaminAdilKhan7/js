@@ -48,3 +48,4 @@ const addtwo = function(num){
     return num + 2
 }                                                // FUCTION EXPRESSIONS
 addtwo(5)     //'addtwo()' cannot be declared before initialisation !!!!!!!!!
+
