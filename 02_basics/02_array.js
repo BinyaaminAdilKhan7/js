@@ -27,5 +27,10 @@ let score3=300
 // read :Array.isArray/.of/.from
 
 
+let myarr=[1,6,4,3,8,2,9,10,5,7]
+// myarr.sort ((a,b)=> a-b ); ascending
+// myarr.sort ((a,b)=> b-a );  descending
+
+console.log(myarr);
 
 

@@ -28,12 +28,12 @@ const newArr = myArr.join() // 'join' converts an Array into String.
 // console.log("A",myArr);
 
 const myn1= myArr.slice(2,5)
-// console.log(myn1);
+console.log(myn1);
 // console.log("B",myArr);
 
 const myn2 = myArr.splice(2,5)// splice manipulates the array. deletes the elements mentioned in paranthesis from the Array.
 //     console.log("C",myArr);
-//     console.log(myn2);
+    console.log(myn2);
 
 
  
