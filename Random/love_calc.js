@@ -10,14 +10,14 @@
 // }
 // calculatelovepercentage("Rahul","Anjali")
 
-var person1 ="Suhail"
+var person1 ="" 
 
 var firstcharp1 = person1.slice(0,1);
 var UCFC = firstcharp1.toUpperCase();
 var restp1 = person1.slice(1,person1.length).toLowerCase();
 var capnamep1 = UCFC+restp1;
 
-var person2 ="Sabrina"
+var person2 =""
 var firstcharp2 = person2.slice(0,1);
 var UCFC2 = firstcharp2.toUpperCase();
 var restp2 = person2.slice(1,person2.length).toLowerCase();

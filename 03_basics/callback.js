@@ -34,32 +34,32 @@ x(function y(){
 
 /////////////////////////////
 
-function greet(name,x,y,z){
-  console.log("hey there " + name);
-  setTimeout(() =>{
-     x(); 
-  },1000)
-  setTimeout(() =>{
-     y(); 
-  },2000)
-  setTimeout(() =>{
-     z(); 
-  },3000)
+// function greet(name,x,y,z){
+//   console.log("hey there " + name);
+//   setTimeout(() =>{
+//      x(); 
+//   },1000)
+//   setTimeout(() =>{
+//      y(); 
+//   },2000)
+//   setTimeout(() =>{
+//      z(); 
+//   },3000)
   
-}
-function convey (){
-console.log("Mr.Hamid wishes to see you");
+// }
+// function convey (){
+// console.log("Mr.Hamid wishes to see you");
 
-}
-function sayBye(){
-  console.log("Goodbye!!!!!!!!!!!!!");
+// }
+// function sayBye(){
+//   console.log("Goodbye!!!!!!!!!!!!!");
   
-}
-function cu(){
-  console.log("it was nice meeting uhh ,See you Soon");
+// }
+// function cu(){
+//   console.log("it was nice meeting uhh ,See you Soon");
   
-}
-greet("Binyaamin",convey,sayBye,cu)
+// }
+// greet("Binyaamin",convey,sayBye,cu)
 
 
 
@@ -94,23 +94,43 @@ greet("Binyaamin",convey,sayBye,cu)
 
 
 
-/*function calculate(a, b, operation) {
-  return operation(a, b);
+function calculate(a,b,operation){
+return operation(a,b)
 }
+function add(a,b){
+  return a+b;
+}
+function subtract(a,b){
+  return a-b;
+}
+function multiply(a,b){
+  return a*b;
+}
+function divide(a,b){
+  return a/b;
+}
+function remainder(a,b){
+  return a%b;
+}
+console.log(calculate(7,9,subtract));
 
-function add(x, y) {
-  return x + y;
-}
-function subtract(x,y){
-  return x-y;
-}
-function multiply(x,y){
-  return x*y;
-}
-function divide(x,y){
-  return x/y;
-}
-function remainder(x,y){
-  return x%y;
-}
-console.log(calculate(25, 10, remainder));*/
+// function calculate(a, b, operation) {
+//   return operation(a, b);
+// }
+
+// function add(x, y) {
+//   return x + y;
+// }
+// function subtract(x,y){
+//   return x-y;
+// }
+// function multiply(x,y){
+//   return x*y;
+// }
+// function divide(x,y){
+//   return x/y;
+// }
+// function remainder(x,y){
+//   return x%y;
+// }
+// console.log(calculate(25, 10, remainder));
